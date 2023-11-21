@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class Fireball : MonoBehaviour
 {
+    [Header("Setup")]
     public Rigidbody rb;
     public Collider col;
     public Vector3 finalScale = Vector3.one;
+    [Header("Properties")]
+    public List<string> targetTags = new List<string>();
+    public float damage = 1;
 
     public void Activate(Transform castingPoint, float force, float preparingTime)
     {
@@ -40,6 +44,18 @@ public class Fireball : MonoBehaviour
         if (col != null)
         {
             col.enabled = true;
+        }
+    }
+
+    //Damage targets
+    private void OnCollisionEnter(Collision collision)
+    {
+        //if other has a targettable tag
+        if (targetTags.Contains(collision.gameObject.tag))
+        {
+            //search for health script and deal damage
+            Health otherHealth = collision.gameObject.GetComponentInChildren<Health>();
+            otherHealth?.TakeDamage(damage);
         }
     }
 }

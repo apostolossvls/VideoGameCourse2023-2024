@@ -7,6 +7,8 @@ TagManager:
   - Missile
   - CinemachineTarget
   - Interactable
+  - Collide
+  - Enemy
   layers:
   - Default
   - TransparentFX

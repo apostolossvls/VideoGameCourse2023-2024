@@ -23,7 +23,7 @@ public class FireballShooter : MonoBehaviour
     {
         if (rechargeTimer > 0) rechargeTimer -= Time.deltaTime;
 
-        if (Input.GetMouseButton(0) && rechargeTimer <= 0)
+        if (Input.GetMouseButton(1) && rechargeTimer <= 0)
         {
             rechargeTimer = rechargeTime;
 

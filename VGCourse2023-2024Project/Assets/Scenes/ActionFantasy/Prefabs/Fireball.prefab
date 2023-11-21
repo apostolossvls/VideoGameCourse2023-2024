@@ -130,3 +130,6 @@ MonoBehaviour:
   rb: {fileID: 8156488396682628655}
   col: {fileID: 5599757946617666509}
   finalScale: {x: 1, y: 1, z: 1}
+  targetTags:
+  - Enemy
+  damage: 40

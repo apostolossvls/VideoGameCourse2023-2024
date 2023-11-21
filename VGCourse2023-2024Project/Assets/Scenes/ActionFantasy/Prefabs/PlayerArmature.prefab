@@ -394,7 +394,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1030581394961889653}
-  - component: {fileID: 5112384013299191457}
   m_Layer: 3
   m_Name: UpperChest
   m_TagString: Untagged
@@ -421,27 +420,6 @@ Transform:
   m_Father: {fileID: 9139928002729562233}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1818360609 &5112384013299191457
-RotationConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522043027181273906}
-  m_Enabled: 0
-  m_Weight: 1
-  m_RotationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationOffset: {x: 0, y: 0, z: 0}
-  m_AffectRotationX: 1
-  m_AffectRotationY: 1
-  m_AffectRotationZ: 1
-  m_IsContraintActive: 0
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 3960550003723627179}
-    weight: 0.25
-  - sourceTransform: {fileID: 5112384013470090900}
-    weight: 1
 --- !u!1 &1997971544537015651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,7 +2459,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4112453716085580093}
-  - component: {fileID: 5112384013009990723}
   m_Layer: 3
   m_Name: Spine
   m_TagString: Untagged
@@ -2505,27 +2482,6 @@ Transform:
   m_Father: {fileID: 3960550003723627179}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1818360609 &5112384013009990723
-RotationConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7433882314967539827}
-  m_Enabled: 1
-  m_Weight: 1
-  m_RotationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationOffset: {x: 0, y: 0, z: 0}
-  m_AffectRotationX: 1
-  m_AffectRotationY: 1
-  m_AffectRotationZ: 1
-  m_IsContraintActive: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 3960550003723627179}
-    weight: 1
-  - sourceTransform: {fileID: 5112384013470090900}
-    weight: 1
 --- !u!1 &7526013000104522723
 GameObject:
   m_ObjectHideFlags: 0
@@ -2759,7 +2715,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9139928002729562233}
-  - component: {fileID: 5112384013024407967}
   m_Layer: 3
   m_Name: Chest
   m_TagString: Untagged
@@ -2783,27 +2738,6 @@ Transform:
   m_Father: {fileID: 4112453716085580093}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1818360609 &5112384013024407967
-RotationConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8149333601761191653}
-  m_Enabled: 1
-  m_Weight: 1
-  m_RotationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationOffset: {x: 0, y: 0, z: 0}
-  m_AffectRotationX: 1
-  m_AffectRotationY: 1
-  m_AffectRotationZ: 1
-  m_IsContraintActive: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 3960550003723627179}
-    weight: 0.75
-  - sourceTransform: {fileID: 5112384013470090900}
-    weight: 1
 --- !u!1 &8163127476103252752
 GameObject:
   m_ObjectHideFlags: 0
