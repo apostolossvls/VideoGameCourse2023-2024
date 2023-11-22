@@ -64,7 +64,7 @@ public class EnemyHealth : Health
         //remove UI elements
         Destroy(GetComponentInChildren<Canvas>()?.gameObject);
 
-        enabled = false; //enemyhealth
+        this.enabled = false; //enemyhealth
     }
 
     //drop one of each loot item in a small random position & rotation offset
