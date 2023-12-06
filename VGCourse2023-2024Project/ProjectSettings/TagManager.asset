@@ -9,6 +9,7 @@ TagManager:
   - Interactable
   - Collide
   - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX
